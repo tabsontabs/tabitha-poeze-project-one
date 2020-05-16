@@ -15,6 +15,7 @@ h1, h2, h3, p, ul, li, a {
 
 img {
     max-width: 100%;
+    display: block;
 }
 
 /* general styles */
@@ -61,6 +62,8 @@ nav li {
 .title {
     text-align: right;
     float: right;
+    position: absolute;
+    top: 25vh;
 }
 
 .title h1 {
@@ -78,6 +81,10 @@ nav li {
     font-family: 'Lato', sans-serif;
 }
 
+#header {
+    position: relative;
+}
+
 /* featured section styles */
 
 .featured {
@@ -86,8 +93,7 @@ nav li {
 }
 
 .featured img {
-    height: 50px;
-    float: left;
+    height: 40vh;
 }
 
 .featured-text {
@@ -131,3 +137,38 @@ nav li {
     text-align: center;
     padding: 40px 0px;
 }
+
+.gallery img {
+    width: calc(80% / 3);
+    float: left;
+    display: block;
+    padding-bottom: 25vh;
+}
+
+
+/* icon styles */
+
+.icons {
+    background-color: #14171F;
+}
+
+i {
+    color: #FABA63;
+    font-size: 50px;
+}
+
+.icons h1 {
+    color: white;
+    font-family: 'Italiana', serif;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.icons li {
+    float: left;
+    width: calc(70% / 3);
+    text-align: center;
+}
+
+/* blog styles */
+
