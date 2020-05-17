@@ -38,7 +38,11 @@
     <section class="featured clearfix">
         <div class="wrapper">
             <div class="featured-image">
-                <img src="./assets/image-6@2x.png" alt="view of a person's hands holding 3 rings over an open jewelery box">
+                <picture>
+                    <source srcset="./assets/image-6@2x.png" media="(min-width: 900px)">
+                    <source srcset="./assets/kyle-frederick-1042416-unsplash.jpg">
+                    <img src="./assets/image-6@2x.png" alt="view of a person's hands holding 3 rings over an open jewelery box">
+                </picture>
             </div>
             <div class="featured-text">
                 <h1>hand crafted</h1>
@@ -79,13 +83,16 @@
     </section>
 
     <section class="blog clearfix">
+            <picture class="picture-1">
+                <source srcset="./assets/image-2@2x.png" media="(min-width: 800px)">
+                <source srcset="./assets/andie-gomez-acebo-744590-unsplash.jpg">
+                <img class="sustainable-img" src="./assets/image-2@2x.png" alt="">
+            </picture>
             <div class="sustainable-text">
                 <h1>sustainable materials</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui est nobis optio placeat ex natus culpa, praesentium rerum odit ipsam sint officia sed ipsa sunt nisi dignissimos ut molestias alias?</p>
                 <a class="button" href="#">read more</a>
             </div>
-            <img class="sustainable-img" src="./assets/image-2@2x.png" alt="">
-        
             <img class="mixmatch-img" src="./assets/image-2-copy@2x.png" alt="">
             <div class="mixmatch-text">
                 <h1>mix & match</h1>
