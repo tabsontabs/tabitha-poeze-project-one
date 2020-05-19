@@ -34,6 +34,17 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    color: white;
+    font-family: 'Italiana', serif;
+    text-transform: uppercase;
+}
+
+p {
+    color: white;
+    font-family: 'Lato', sans-serif;    
+}
+
 /* header & nav styles */
 
 .mobile, .fa-bars {
@@ -71,9 +82,6 @@ header {
 }
 
 .title h1 {
-    color: white;
-    font-family: 'Italiana', serif;
-    text-transform: uppercase;
     font-size: 162px;
     line-height: 140px;
 }
@@ -124,15 +132,10 @@ header {
 }
 
 .featured h1 {
-    color: white;
-    font-family: 'Italiana', serif;
-    text-transform: uppercase;
     font-size: 51px;
 }
 
 .featured p {
-    color: white;
-    font-family: 'Lato', sans-serif;
     font-size: 20px;
     margin-bottom: 5%;
 }
@@ -154,9 +157,6 @@ header {
 }
 
 .gallery h1 {
-    color: white;
-    font-family: 'Italiana', serif;
-    text-transform: uppercase;
     font-size: 51px;
     text-align: center;
     padding: 10vh 0;
@@ -216,16 +216,12 @@ header {
 }
 
 .blog h1 {
-    color: white;
-    font-family: 'Italiana', serif;
-    text-transform: uppercase;
     font-size: 51px;
 }
 
 .blog p {
-    color: white;
-    font-family: 'Lato', sans-serif;
     font-size: 20px;
+    padding-bottom: 10%;
 }
 
 .sustainable-img {
@@ -253,10 +249,6 @@ header {
     padding: 5% 0 5%;
 }
 
-.blog p {
-    padding-bottom: 10%;
-}
-
 .blog .button {
     margin-bottom: 10%;
 }
@@ -275,6 +267,7 @@ footer nav a {
     font-family: 'Italiana', serif;
     text-transform: uppercase;
     font-size: 20px;
+    line-height: 29px;
 }
 
 .footer-nav, .subscribe, .contact {
@@ -310,16 +303,17 @@ footer nav a {
 }
 
 .subscribe p {
-    color: white;
-    font-family: 'Lato', sans-serif;
     font-size: 20px;
     text-align: center;
     padding-bottom: 5px;
 }
 
-.contact p, .contact a {
+.contact a {
     color: white;
     font-family: 'Lato', sans-serif;
+}
+
+.contact p, .contact a {
     font-size: 20px;
     text-align: right;
 }
@@ -345,12 +339,11 @@ input[type="email"] {
 }
 
 .copyright {
-    color: white;
-    font-family: 'Lato', sans-serif;
     font-size: 20px;
     text-align: right;
     text-align: center;
     background-color: black;
+    padding: 10px;
 }
 
 /* media queries */
